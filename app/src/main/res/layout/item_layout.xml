@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <data>
+        <variable
+            name="user"
+            type="com.example.bindingeg.Users"/>
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/profile_pic"
+            android:src="@drawable/img1"
+            android:imageUrl="@{user.ImageId}"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+
+                android:text="@{user.title}"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:text="@{user.desc}" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

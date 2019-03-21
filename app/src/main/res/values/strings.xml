@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BindingEg</string>
+    <string-array name="names">
+        <item>Jgagdgd</item>
+        <item>gidgfgkdgf</item>
+        <item>sfsdfsfvvv</item>
+        <item>sfsdfdsfsdf</item>
+        <item>sdfsdfdsgf</item>
+        <item>gsfsfdsfs</item>
+        <item>iudfigsdf</item>
+    </string-array>
+    <string-array name="emails">
+        <item>Jgagdgd@gmail.com</item>
+        <item>Jgagdgd@gmail.com</item>
+        <item>sfsdfsfvvv@gmail.com</item>
+        <item>sfsdfdsfsdf@gmail.com</item>
+        <item>sdfsdfdsgf@gmail.com</item>
+        <item>gsfsfdsfs@gmail.com</item>
+        <item>iudfigsdf@gmail.com</item>
+    </string-array>
+</resources>
